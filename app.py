@@ -17,7 +17,9 @@ def extract_significant_keyword(text):
             keywords.append(token.text)
     
     # Return the most significant keyword (e.g., the first one)
-    return keywords if keywords else None
+    if keywords : 
+        modified_array = ['#' + s for s in keywords]
+    return modified_array if modified_array else None
 
 app = Flask(__name__)
 
