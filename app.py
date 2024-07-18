@@ -1,7 +1,6 @@
 import spacy
 from flask import Flask, jsonify, request, abort
 import logging
-import os
 
 # Load the spaCy model
 nlp = spacy.load("en_core_web_sm")
