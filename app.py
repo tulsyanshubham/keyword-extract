@@ -45,6 +45,4 @@ def two():
     return "App running on port 5000"
 
 if __name__ == "__main__":
-    # Use environment variable for port
-    port = int(os.environ.get('PORT', 5000))
-    app.run(port=port)
+    app.run()
