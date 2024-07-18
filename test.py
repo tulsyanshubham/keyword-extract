@@ -40,5 +40,10 @@ def three():
     result = {"result": r}
     return jsonify(result)
 
+@app.route("/", methods=["GET"])
+# now data can be send in body
+def two():
+    return "App running on port 5000"
+
 if __name__ == "__main__":
     app.run(host="localhost", port=5000, debug=True)
