@@ -22,7 +22,7 @@ def extract_significant_keyword(text):
 #     user_input = input("Enter a statement: ")
     
 #     # Extract and print keywords
-#     keywords = extract_keywords(user_input)
+#     keywords = extract_significant_keyword(user_input)
 #     print("Keywords:", keywords)
 
 
